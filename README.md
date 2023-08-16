@@ -27,7 +27,7 @@ The process begins with the learnings from <a href="https://www.youtube.com/watc
 
 ### Upon examining the code, and following TDD standards, the first Test Case was formed for a basic Forward/Backward movement functionality. This was a failing test case.
 
-##### <i> NOTE : To I believe two assertions are usually bad practice according to Uncle Bob, I couldnt figure out how to do it inside one argument in the given time </i>
+##### <i> NOTE : To my limited knowledge of TDD, I believe two assertions are usually bad practice according to Uncle Bob, I couldnt figure out how to do it inside one argument in the given time. I would like to learn and improve, and master test driven development</i>
 
 ![screenshot](Screenshots/TestCase%231FailingBasicForwardBackwardCommit.png)
 
