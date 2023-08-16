@@ -1,55 +1,52 @@
-# Chandrayaan3_Incubyte
+# Chandrayaan3_Incubyte - Swastik Swarup Das
 <h3 align="left">Chandrayaan 3 Code Python</h3>
 <p align="Left">
-<b>Brief Summary :</b> <br/><br/>
+  
+### Brief Summary :
   The laws of Test-Driven-Development were followed to the best of my capabilities in this problem. The concepts of Test-Driven-Development brought about a sharp change to the process in which I would usually code this without TDD.
-<br/><br/>
-<b>Experience :</b><br/><br/>Familiarizing myself with the concepts of Unit Testing in Python, Test Driven Development, The syntax and the techniques to achieve the following in Visual Studio Code, were quite challenging. <br/> The Blogs and articles from  <a href="https://blog.incubyte.co/tags/software-craftsmanship/">Incubyte Blogs</a> were a rather helpful source to gain insights about TDD and kickstart the process for me to learn and familiarize the concepts.
+### Experience 
+Familiarizing myself with the concepts of Unit Testing in Python, Test Driven Development, The syntax and the techniques to achieve the following in Visual Studio Code, were quite challenging. <br/> The Blogs and articles from  <a href="https://blog.incubyte.co/tags/software-craftsmanship/">Incubyte Blogs</a> were a rather helpful source to gain insights about TDD and kickstart the process for me to learn and familiarize the concepts.
 <br/>
 </div>
 
 ## About The Code, Screenshots, Experience, and Thought Processes
-
 ![screenshot](Screenshots/Chandrayaan3_Incubyte.png)
+
+The process begins with the learnings from <a href="https://www.youtube.com/watch?v=qkblc5WRn-U">Uncle Bob's Video </a> <br/>
+
+### The three laws of TDD state : 
+1. Write production code only to pass a failing unit test.
+2. Write no more of a unit test than sufficient to fail (compilation failures are failures).
+3. Write no more production code than necessary to pass the one failing unit test.   
+
+#### Following the rules of TDD, 
+1. Test cases were made to be failed, code was refactored to pass only those test cases
+2. Test cases were updated for the unit tests to fail again
+3. Code was refactored again to pass those tests
+4. Finally the required standard and quality was reached and a huge test case check passed
+
+### Upon examining the code, and following TDD standards, the first Test Case was formed for a basic Forward/Backward movement functionality. This was a failing test case.
+
+##### <i> NOTE : Although I believe two assertions are usually Bad practice according to Uncle Bob, I couldnt figure out how to do it inside one argument in the given time </i>
+
 ![screenshot](Screenshots/TestCase%231FailingBasicForwardBackwardCommit.png)
+
+### Then the production code was refactored only sufficient enough to pass the failing unit test :
+
 ![screenshot](Screenshots/TestCase%231ForwardBackwardCommit.png)
+
+### The processes was restarted and another unit test case was designed just enough to fail the production code again. 
+
 ![screenshot](Screenshots/TestCase%232FailingRotationCommit.png)
+
+### The production code was refactored to pass the test case by adding the rotational parameters
+
 ![screenshot](Screenshots/TestCase%232RefactoringRotationCommit.png)
+
+### The processes was restarted and another unit test case was designed just enough to fail the production code again. 
+
 ![screenshot](Screenshots/TestCase%233FailingUpDownCommit.png)
+
+### The production code was refactored to pass the test case by adding Up and Down command parameters.
+
 ![screenshot](Screenshots/TestCase%233RefactoringCodeUpDownCommit.png)
-
-Sentaur is a web-based application that will be used by people interested in using sentiment analysis to determine motivations and purpose of chat participants. The application will be most useful for the deployment of advertisement personalization within applications with real-time analysis of sentiments and user-needs.
-
-Messaging or chat applications have become an important part of our daily lives. But there is still a need for additional features and functionalities. This project aims to fill this gap by providing a chat application along with sentiment analysis to provide users with information about emotions conveyed in their messages. The chat application that we have developed has been named “Sentaur”.
-
-Analysis the texts and assigning a sentiment score to each text will help users understand the tone of the conversation and will help them convey their messages more effectively.
-
-The MERN stack which is used to develop this application is ideal for building modern web applications, Socket.io is used for real time, bidirectional communication between the users, while Python libraries such as NLTK can provide useful tools for performing sentiment analysis on texts. The integration of these technologies provides a comprehensive solution for developing a chat application with sentiment analysis.
-
-# Screenshots
-## Main Chat Screen 
-The Main Chat screen
-
-![screenshot](docs/screenshots/MainChatScreen.png)
-
-## Dialogue Box 
-A beautifully semi transparent Dialogue Box
-
-![screenshot](docs/screenshots/DialogueBox.png)
-## Floating Window
-Material Design Inspired UI
-
-![screenshot](docs/screenshots/FloatingWindow.png)
-## Online Status
-Dynamically changing online status indicator using moon emojis 😄
-
-![screenshot](docs/screenshots/OnlineStatus.png)
-## Resizebility
-All the corners line up perfectly even on resizing the window
-
-![screenshot](docs/screenshots/Resizebility.png)
-## Sentiment Analysis
-A screenshot of chat analysis on jupyter notebook 
-
-![screenshot](docs/screenshots/SentimentAnalysis.jpg)
-
