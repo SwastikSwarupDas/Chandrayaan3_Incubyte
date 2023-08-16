@@ -99,7 +99,39 @@ def chandrayaanFunc(inPos,inDir,commands):
                         inDir = "E"
                
             
-    
+        elif commands[i] in ('u','d'):
+            print("inDir:",inDir)
+            print("prevDir:",prevDir)
+            if inDir in ('N','E','W','S'):
+                prevDir = inDir
+
+            if commands[i] == "u":
+                if inDir in ('D'):
+                    if prevDir == "N":
+                        prevDir = "S"
+                    elif prevDir == "E":
+                        prevDir = "W"
+                    elif prevDir == "W":
+                        prevDir = "E"
+                    else:
+                        prevDir == "N"
+
+                inDir = "U"
+
+
+            else:
+                if prevDir in ('U','N','E','W','S'):
+                    if prevDir == "N":
+                        prevDir = "S"
+                    elif prevDir == "E":
+                        prevDir = "W"
+                    elif prevDir == "W":
+                        prevDir = "E"
+                    else:
+                        prevDir == "N"
+                
+                inDir = "D"
+               
                 
 
 
