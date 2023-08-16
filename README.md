@@ -50,3 +50,16 @@ The process begins with the learnings from <a href="https://www.youtube.com/watc
 ### The production code was refactored to pass the test case by adding Up and Down command parameters.
 
 ![screenshot](Screenshots/TestCase%233RefactoringCodeUpDownCommit.png)
+
+### What I learnt ? 
+
+1. Learnt a lot about Test Driven Development Techniques
+2. Introduced myself to a new way of pipeline the development process
+3. Understood how to utilize the testing functionality present in python's unittest
+
+### Honorary Mentions 
+
+These were the links that I used to refer to learn TDD : 
+1. <a href="https://blog.incubyte.co/tags/software-craftsmanship/">Incubyte Blogs: Software Craftsmanship</a>
+2. <a href="https://www.freecodecamp.org/news/an-introduction-to-testing-in-python/">Freecodecamp : An Introduction to testing in Python</a>
+3. <a href="https://code.visualstudio.com/docs/python/testing">VS Code Unittesting Documentation</a>
