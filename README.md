@@ -1,14 +1,11 @@
 # Chandrayaan3_Incubyte
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/SwastikSwarupDas/Chandrayaan3_Incubyte"> </a>
-  <h3 align="left">Chandrayaan 3 Code</h3>
-
-  <p align="center">
-    Sentiment driven leads generator
-    <br />
+<h3 align="left">Chandrayaan 3 Code Python</h3>
+<p align="Left">
+<b>Brief Summary :</b> <br/><br/>
+  The laws of Test-Driven-Development were followed to the best of my capabilities in this problem. The concepts of Test-Driven-Development brought about a sharp change to the process in which I would usually code this without TDD.
+<br/><br/>
+<b>Experience :</b><br/><br/>Familiarizing myself with the concepts of Unit Testing in Python, Test Driven Development, The syntax and the techniques to achieve the following in Visual Studio Code, were quite challenging. <br/> The Blogs and articles from  <a href="https://blog.incubyte.co/tags/software-craftsmanship/">Incubyte Blogs</a> were a rather helpful source to gain insights about TDD and kickstart the process for me to learn and familiarize the concepts.
+<br/>
 
 
 </div>
