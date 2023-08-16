@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- ![screenshot](docs/screenshots/LoginDialogue.png)
+ ![screenshot](Screenshots/Test-Commit-#-Final-Huge-Testcase-Check-PASSED.png)
 
 Sentaur is a web-based application that will be used by people interested in using sentiment analysis to determine motivations and purpose of chat participants. The application will be most useful for the deployment of advertisement personalization within applications with real-time analysis of sentiments and user-needs.
 
