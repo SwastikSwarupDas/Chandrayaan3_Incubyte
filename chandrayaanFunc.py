@@ -47,7 +47,59 @@ def chandrayaanFunc(inPos,inDir,commands):
                     y += 1
            
 
-     
+        elif commands[i] in ('r','l'):
+            if inDir in ('N','E','W','S'):
+                prevDir = inDir  # Left Right Rotation commands
+            if inDir == "N":
+                if commands[i] == "r":
+                    inDir = "E"
+  
+                else:
+                    inDir = "W"
+      
+            elif inDir == "E":
+                if commands[i] == "r":
+                    inDir = "S"
+            
+                else:
+                    inDir = "N"
+            
+            elif inDir == "S":
+                if commands[i] == "r":
+                    inDir = "W"
+          
+                else:
+                    inDir = "E"
+           
+            elif inDir == "W":
+                if commands[i] == "r":
+                    inDir = "N"
+         
+                else:
+                    inDir = "S"
+          
+            elif inDir == "U":
+                if commands[i] == "r":
+                    if prevDir == "N":
+                        inDir = "E"
+                    elif prevDir == "W":
+                        inDir = "N"
+                    elif prevDir == "E":
+                        inDir = "S"
+                    else:
+                        inDir = "W"
+                else:
+                    if prevDir == "N":
+                        inDir = "W"
+                    elif prevDir == "W":
+                        inDir = "S"
+                    elif prevDir == "E":
+                        inDir = "N"
+                    else:
+                        inDir = "E"
+               
+            
+    
                 
 
 
