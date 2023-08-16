@@ -100,8 +100,6 @@ def chandrayaanFunc(inPos,inDir,commands):
                
             
         elif commands[i] in ('u','d'):
-            print("inDir:",inDir)
-            print("prevDir:",prevDir)
             if inDir in ('N','E','W','S'):
                 prevDir = inDir
 
