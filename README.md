@@ -27,15 +27,15 @@ The process begins with the learnings from <a href="https://www.youtube.com/watc
 
 ### Upon examining the code, and following TDD standards, the first Test Case was formed for a basic Forward/Backward movement functionality. This was a failing test case.
 
-##### <i> NOTE : Although I believe two assertions are usually Bad practice according to Uncle Bob, I couldnt figure out how to do it inside one argument in the given time </i>
+##### <i> NOTE : To I believe two assertions are usually bad practice according to Uncle Bob, I couldnt figure out how to do it inside one argument in the given time </i>
 
 ![screenshot](Screenshots/TestCase%231FailingBasicForwardBackwardCommit.png)
 
-### Then the production code was refactored only sufficient enough to pass the failing unit test :
+### Then the production code was refactored only sufficient enough to pass the failing unit test
 
 ![screenshot](Screenshots/TestCase%231ForwardBackwardCommit.png)
 
-### The processes was restarted and another unit test case was designed just enough to fail the production code again. 
+### The processes was restarted and another unit test case was designed just enough to fail the production code again
 
 ![screenshot](Screenshots/TestCase%232FailingRotationCommit.png)
 
@@ -43,13 +43,19 @@ The process begins with the learnings from <a href="https://www.youtube.com/watc
 
 ![screenshot](Screenshots/TestCase%232RefactoringRotationCommit.png)
 
-### The processes was restarted and another unit test case was designed just enough to fail the production code again. 
+### The processes was restarted and another unit test case was designed just enough to fail the production code again
 
 ![screenshot](Screenshots/TestCase%233FailingUpDownCommit.png)
 
-### The production code was refactored to pass the test case by adding Up and Down command parameters.
+### The production code was refactored to pass the test case by adding Up and Down command parameters
 
 ![screenshot](Screenshots/TestCase%233RefactoringCodeUpDownCommit.png)
+
+### For a final run, a new test case was designed to stress test the code, and it performed as required, confirming the quality of production code and hence concluding the development process
+
+#### STRESS TEST PASSED ✅
+
+![screenshot](Screenshots/Test%20Commit%20%23%20Final%20Huge%20Testcase%20Check%20PASSED.png)
 
 ### What I learnt ? 
 
