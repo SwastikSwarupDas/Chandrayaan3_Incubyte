@@ -6,16 +6,17 @@
 <br/><br/>
 <b>Experience :</b><br/><br/>Familiarizing myself with the concepts of Unit Testing in Python, Test Driven Development, The syntax and the techniques to achieve the following in Visual Studio Code, were quite challenging. <br/> The Blogs and articles from  <a href="https://blog.incubyte.co/tags/software-craftsmanship/">Incubyte Blogs</a> were a rather helpful source to gain insights about TDD and kickstart the process for me to learn and familiarize the concepts.
 <br/>
-
-
 </div>
 
+## About The Code, Screenshots, Experience, and Thought Processes
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
- ![screenshot](Screenshots/Test-Commit-#-Final-Huge-Testcase-Check-PASSED.png)
+![screenshot](Screenshots/Chandrayaan3_Incubyte.png)
+![screenshot](Screenshots/TestCase%231FailingBasicForwardBackwardCommit.png)
+![screenshot](Screenshots/TestCase%231ForwardBackwardCommit.png)
+![screenshot](Screenshots/TestCase%232FailingRotationCommit.png)
+![screenshot](Screenshots/TestCase%232RefactoringRotationCommit.png)
+![screenshot](Screenshots/TestCase%233FailingUpDownCommit.png)
+![screenshot](Screenshots/TestCase%233RefactoringCodeUpDownCommit.png)
 
 Sentaur is a web-based application that will be used by people interested in using sentiment analysis to determine motivations and purpose of chat participants. The application will be most useful for the deployment of advertisement personalization within applications with real-time analysis of sentiments and user-needs.
 
