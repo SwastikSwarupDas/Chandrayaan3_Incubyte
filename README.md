@@ -3,11 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/SwastikSwarupDas/Chandrayaan3_Incubyte">
-    ![screenshot](Screenshots/Chandrayaan3_Incubyte.png)
-  </a>
-
-  <h3 align="center">Sentaur App</h3>
+  <a href="https://github.com/SwastikSwarupDas/Chandrayaan3_Incubyte"> </a>
+  <h3 align="left">Chandrayaan 3 Code</h3>
 
   <p align="center">
     Sentiment driven leads generator
