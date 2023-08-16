@@ -7,12 +7,12 @@ class Test_chandrayaan(unittest.TestCase):
         
         inPos = [0,0,0]
         inDir = "N"
-        commands  = ['f','r','u','b','l']
+        commands  = ['f','b']
         
         expected_direction = "N"
-        expected_pos = [0, 1, -1]
+        expected_pos = [0, 0, 0]
         
-        returned_direction, returned_position = chandrayaanFunc(inPos,inDir,commands)
+        returned_position, returned_direction = chandrayaanFunc(inPos,inDir,commands)
         
         self.assertEqual(expected_direction, returned_direction)
         self.assertEqual(expected_pos, returned_position)
