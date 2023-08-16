@@ -7,9 +7,9 @@ class Test_chandrayaan(unittest.TestCase):
         
         inPos = [0,0,0]
         inDir = "N"
-        commands  = ['f','b']
+        commands  = ['f','b','r']
         
-        expected_direction = "N"
+        expected_direction = "E"
         expected_pos = [0, 0, 0]
         
         returned_position, returned_direction = chandrayaanFunc(inPos,inDir,commands)
